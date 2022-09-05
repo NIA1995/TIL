@@ -31,17 +31,11 @@ public:
         m_MemberList.push_back(UserPtr);
     }
 
-    void RemoveMember()
-    {
-        m_MemberList.pop_back();
-    }
-
 private:
     typedef vector<UserPtr> MemberList;
     MemberList m_MemberList;
 };
 typedef shared_ptr<Party> PartyPtr;
-typedef weak_ptr<Party> PartyWeakPtr;
 
 class User
 {
@@ -51,24 +45,8 @@ public:
         m_Party = partyPtr;
     }
 
-    void LeaveParty()
-    {
-        if (m_Party)
-        {
-            /* weak_ptr을 shared_ptr로 변환하여 제거한다.
-               만약, Party 클래스의 RemoveMember 함수가 먼저 실행되었다면 m_Party는 이미 해제(expired) 상태이다. */
-            PartyPtr partyPtr = m_Party.lock();
-
-            if (partyPtr)
-            {
-                partyPtr->RemoveMember();
-            }
-        }
-    }
-
 private:
-    /* PartyPtr -> PartyWeakPtr */
-    PartyWeakPtr m_Party;
+    PartyPtr m_Party;
 };
 
 int main()
