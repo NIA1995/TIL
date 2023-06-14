@@ -5,10 +5,10 @@
 
 전역 사용자명/이메일 구성하기
 --------------------------
-1. git config --global user.name "<'Your name'>"
+1. git config --global user.name "<이름>"
     * `git config --global user.name "<EXAMPLE2023>"`
 
-2. git config --global user.email "<'Your address'"
+2. git config --global user.email "<이메일>"
     * `gif config --global user.email "<id@email.com>"`
 
 <br/>
@@ -17,10 +17,10 @@
 -------------------------------
 * 해당 저장소 디렉터리 이동 후 사용 가능
 -------------------------------
-1. git config user.name "<'Your name'>"
+1. git config user.name "<이름>"
     * `git config user.name "<EXAMPLE2023>"`
 
-2. git config user.email "<'Your address'>"
+2. git config user.email "<이메일>"
     * `git config user.email "<id@emil.com>"`
 
 <br/>
@@ -56,7 +56,7 @@ Git의 출력결과 색상 활성화
 
 저장소 복제
 ----------
-1. git clone <'target url'>
+1. git clone <경로>
     * `git clone https://github.com/PX4/PX4-Autopilot.git`
    
 <br/>
@@ -79,7 +79,7 @@ Git의 출력결과 색상 활성화
 
 파일의 일부를 스테이징하기
 -----------------------
-1. git add -p [<'File'>[<File>[etc Files]]]
+1. git add -p [<파일>[<파일>[기타 파일]]]
 
 <br/>
 
@@ -91,7 +91,7 @@ add 명령에서 Git 대화 모드를 사용하여 파일 추가하기
 
 수정되고 추적되는 파일의 변경 사항 스테이징하기
 -------------------------------------------
-1. git add -u[<'adress'> [<address>]]
+1. git add -u[<주소> \[<주소>\]]
 
 <br/>
 
@@ -103,13 +103,13 @@ add 명령에서 Git 대화 모드를 사용하여 파일 추가하기
 
 작업 트리의 변경 사항 돌려놓기
 ---------------------------
-1. git checkout HEAD <'File'>[<File>]
+1. git checkout HEAD <파일>[ <파일> ]
 
 <br/>
 
 커밋되지 않고 스테이징된 변경 사항 재설정하기
 -----------------------------------------
-1. git reset HEAD <'File'>[<File>]
+1. git reset HEAD <파일>\[<파일>\]
 
 <br/>
 
@@ -152,40 +152,40 @@ add 명령에서 Git 대화 모드를 사용하여 파일 추가하기
 
 현재 브랜치에서 새로운 브랜치 생성하기
 ----------------------------------
-1. git branch <'New branch'>
+1. git branch <새 브랜치>
 
 <br/>
 
 다른 브랜치 체크아웃 하기
 ----------------------
-1. git checkout <'Target branch'>
+1. git checkout <목표 브랜치>
     * `git checkout v1.12.3`
 
 <br/>
 
 현재 브랜치에서 새로운 브랜치 생성하고 체크아웃하기
 ----------------------------------------------
-1. git checkout -b <'New branch'>
+1. git checkout -b <새 브랜치>
     * `git checkout -b v1.13.3`
 
 <br/>
 
 다른 시작 지점에서 브랜치 생성하기
 -------------------------------
-1. git branch <'New branch'> <Dir>
+1. git branch <새 브랜치> <Dir>
 
 <br/>
 
 기존의 브랜치를 새로운 브랜치로 덮어쓰기
 ------------------------------------
-1. git branch -f <'Old branch'> [<'Target dir'>]
+1. git branch -f <기존 브랜치> [<새 브랜치>]
 
 <br/>
 
 브랜치를 옮기거나 브랜치명 변경하기
 -------------------------------
-1. git checkout -m <'Old branch'> <'New branch'>
+1. git checkout -m <기존 브랜치> <새 브랜치>
     * `<새로운 브랜치>가 존재하지 않는 경우`
 
-2. git checkout -M <'Old branch'> <'New branch'>
+2. git checkout -M <기존 브랜치> <새 브랜치>
     * `<무조건 덮어쓰기>`
