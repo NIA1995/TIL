@@ -61,6 +61,13 @@ Git의 출력결과 색상 활성화
 
 <br/>
 
+Submodule을 포함하는 Git 저장소를 가져오기
+-----------------------------------------
+1. git clone --recursive <경로>
+    * `git clone https://github.com/PX4/PX4-Autopilot.git`
+
+<br/>
+
 참고 사이트
 -------------------------------------------
 [명령어 참조](https://medium.com/@joongwon/git-git-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC-c25b421ecdbd)
