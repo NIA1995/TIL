@@ -13,13 +13,12 @@ Git 명령어
 -------------------------------
 * 해당 저장소 디렉터리 이동 후 사용 가능
 -------------------------------
-<span style = "background-color : lightgray">
 1. git config user.name "Your name" 
     > git config user.name "EXAMPLE2023"
 
 2. git config user.email "Your address"
     > git config user.email "id@emil.com"
-</span>
+    
 전역 설정 정보 조회
 -----------------
 1. git config --global --list
