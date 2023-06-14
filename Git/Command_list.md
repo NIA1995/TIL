@@ -34,11 +34,11 @@ Git의 출력결과 색상 활성화
 새로운 저장소 초기화
 ------------------
 1. mkdir /path/nweDir
->    * mkdir newDir (현재 디렉토리에서 생성)
+    > mkdir newDir (현재 디렉토리에서 생성)
 2. cd /path/newDir
->    * cd newDir (현재 디렉토리에서 이동)
+    > cd newDir (현재 디렉토리에서 이동)
 3. git init
->    * git init
+    > git init
 
 저장소 복제
 ----------
