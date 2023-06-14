@@ -7,4 +7,4 @@ Git 명령어
     * git config --global user.name "NIA1995"
 
 2. git config --global user.email "Your address"
-    * gif config --global user.email "xlql555@astrox.kr"
+    * gif config --global user.email "id@email.com"
