@@ -3,8 +3,12 @@ Today I Learned
 
 Folder Structure
 ----------------
-* CPP : C++ Study
+* CPP : C++ study
 
 <div/>
 
-* Git : Git Commands List
+* Git : git commands list
+
+<div/>
+
+* Trouble Shooting : trouble shooting list
