@@ -10,7 +10,7 @@ VitrualBox에 우분투를 처음 설치하고 sudo su 명령어로 슈퍼 계�
 
 su root 명령어를 사용하여 root 사용자로 변경하고 비밀번호를 입력.
 
-![image-20231019102037911](C:\Users\AstroX\AppData\Roaming\Typora\typora-user-images\image-20231019102037911.png)
+![image-20231019102037911](/Images/image-20231019102037911.png)
 
 
 
