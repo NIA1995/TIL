@@ -40,6 +40,6 @@ sudo 그룹에 vboxuser 추가
 
 ## Step 5
 
-재부팅 후 sudo su 명령어 테스
+재부팅 후 sudo su 명령어 테스트
 
 ![image-20231019102447624](C:\Users\AstroX\AppData\Roaming\Typora\typora-user-images\image-20231019102447624.png)
