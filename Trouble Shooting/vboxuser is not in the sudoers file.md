@@ -10,7 +10,7 @@ VitrualBox에 우분투를 처음 설치하고 sudo su 명령어로 슈퍼 계�
 
 su root 명령어를 사용하여 root 사용자로 변경하고 비밀번호를 입력.
 
-![image-20231019102037911](/Images/image-20231019102037911.png)
+![image-20231019102037911](Trouble Shooting/Images/image-20231019102037911.png)
 
 
 
@@ -18,7 +18,7 @@ su root 명령어를 사용하여 root 사용자로 변경하고 비밀번호를
 
 apt-get install sudo -y를 사용하여 sudo 패키지 설치
 
-![image-20231019102217660](C:\Users\AstroX\AppData\Roaming\Typora\typora-user-images\image-20231019102217660.png)
+![image-20231019102217660](Trouble Shooting/Images/image-20231019102217660.png)
 
 
 
@@ -26,7 +26,7 @@ apt-get install sudo -y를 사용하여 sudo 패키지 설치
 
 sudo 그룹에 vboxuser 추가
 
-![image-20231019102251806](C:\Users\AstroX\AppData\Roaming\Typora\typora-user-images\image-20231019102251806.png)
+![image-20231019102251806](Trouble Shooting/Images/image-20231019102251806.png)
 
 
 
@@ -34,7 +34,7 @@ sudo 그룹에 vboxuser 추가
 
 /etc/sudoers의 권한 변경
 
-![image-20231019102329270](C:\Users\AstroX\AppData\Roaming\Typora\typora-user-images\image-20231019102329270.png)
+![image-20231019102329270](Trouble Shooting/Images/image-20231019102329270.png)
 
 
 
@@ -42,4 +42,4 @@ sudo 그룹에 vboxuser 추가
 
 재부팅 후 sudo su 명령어 테스트
 
-![image-20231019102447624](C:\Users\AstroX\AppData\Roaming\Typora\typora-user-images\image-20231019102447624.png)
+![image-20231019102447624](Trouble Shooting/Images/image-20231019102447624.png)
