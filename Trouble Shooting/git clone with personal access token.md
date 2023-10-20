@@ -1,3 +1,3 @@
-## git clone with personal access token Resolved
+# git clone with personal access token Resolved
 
-# git clone http://<user-id>:<token>@<repasitory url>
+## git clone http://\<user-id\>:\<token\>@\<repasitory url\>
