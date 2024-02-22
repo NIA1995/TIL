@@ -1,0 +1,2 @@
+1. 개인 저장소 사용자에게 Access token 공유 요청
+2. git clone --recursive https://<user-id>:<token>@<repasitory url>
