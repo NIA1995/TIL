@@ -2,7 +2,7 @@
 
 색을 정상적으로 출력하지 못하고 일부 색이 반전되어 보이는 현상
 
-![[Error_01.png]]
+![](https://github.com/NIA1995/TIL/blob/main/Trouble%20Shooting/Python/Images/yuv420p_to_rgb24_Error/Error_01.png)
 
 > 문제 원인
 
